@@ -189,7 +189,8 @@ font-family: 'Roboto', sans-serif; */
   margin: -55px auto 0;
   position: relative;
   z-index: 6;
-  max-width: 1200px;
+  padding: 0 15px;
+  max-width: 1230px;
 }
 
 .statistics {
@@ -266,6 +267,7 @@ atitstics-item__title {
 .container {
 }
 .desigh__images {
+  max-width: 100%;
   margin-bottom: 100px;
 }
 .disign-row {
@@ -318,4 +320,111 @@ atitstics-item__title {
   content: "|";
   position: absolute;
   left: -5px;
+}
+@media (max-width: 1220px) {
+  .advantages__text {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .desigh-row {
+    display: block;
+  }
+  .disign-row__item {
+    max-width: 100%;
+  }
+  .dessigh-row__item-text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 930px) {
+  .advantages-inner__row {
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .addvateges__title {
+    position: static;
+    text-align: center;
+  }
+  .addvetages__text {
+    margin: 25px auto;
+    text-align: center;
+  }
+
+  .advantages-inner__row--mobile .adventages-dascr {
+    order: -1;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .addvateges__title--bottom {
+  }
+}
+@media (max-width: 820px) {
+  .statistics-items {
+    flex-wrap: wrap;
+  }
+  .statistics-item {
+    padding: 50px;
+  }
+  .disign-row {
+    flex-direction: column;
+  }
+  .disign-row__item {
+    margin: 25px 0;
+  }
+  .dessigh-row__item-text {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .adventages__img img {
+    width: 100%;
+  }
+}
+@media (max-width: 410px) {
+  .footer__btn {
+     margin-bottom: 65px;
+  }
+  .footer {
+    padding: 47px 0 20px;
+  }
+  .statistics-item__num {
+    font-size: 90px;
+    line-height: 100px;
+    margin-bottom: 7px;
+  }
+  body {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .header-content__title {
+    font-size: 70px;
+    line-height: 85px;
+    margin-top: 20px;
+  }
+  .menu__list a {
+    font-size: 30px;
+    line-height: 44px;
+    padding: 19px 10px 7px 0;
+    border-bottom: 3px solid #770302;
+
+    max-width: 360px;
+    width: 100%;
+  }
+  .menu__list ul {
+    width: 100%;
+  }
+  .statistics-item {
+    padding: 25px 0;
+  }
+  .video {
+    margin-bottom: 50px;
+  }
 }
